@@ -1,4 +1,4 @@
-    const data = {
+    var data = {
     "id": 1,
     "cnpj": "01.000.000/0000-01",
     "nome": "Drogaria Devs",
