@@ -3,20 +3,47 @@ body{
     
 }
 .topo{
+    display: flex;
+    justify-content: space-between;
     background-color: rgb(114, 241, 188);
     width: 100%;
     height: 200px;
+    padding-left: 10px;
+    padding-right: 10px
 }
 #titulo{
     color: gray;
     font-size: 40px;
-    left: 20px;
-    position: absolute;
+    
+}
+#informacoes{
+    background-color: aqua;
+    height: 80px;
+    width: 100px;
+    position: relative;
 }
 
 td, th {
 	padding: .9em;
 	margin: 0;
-	border: 1px solid #ccc;
-	text-align: center;
+    text-align: center;
+    border: solid 1px rgba(128, 128, 128, 0.479);
+    border-radius: 4px;
+}
+
+#tabela-clientes{
+    width: 500px;
+    
+
+}
+#tabela-produtos{
+    width: 500px;
+    
+}
+#container{
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    right: 0px;
+
 }
