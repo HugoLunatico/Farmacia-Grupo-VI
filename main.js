@@ -1,8 +1,12 @@
 var x = data.produtos;
 
-var produto = data.produtos[0].nome;
+var produtos = data.produtos[0];
 
-console.log(produto)
+var preco = data.produtos[3];
+
+var nome = data.produtos[2]
 
 
-document.getElementById("info-preço").innerHTML = data.id + " " ;
+document.getElementById("info-preço").innerHTML = produtos.preco + " " ;
+document.getElementById("info-nome").innerHTML = produtos.nome + " " ;
+
